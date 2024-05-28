@@ -1,5 +1,5 @@
 
-#                        CD74ACT00
+# CD74ACT00
 
 ## QUAD 2-INPUT POSITIVE-NAND GATES Custom Chip for Wokwi
 
