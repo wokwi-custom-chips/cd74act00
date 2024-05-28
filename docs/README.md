@@ -8,6 +8,7 @@ The ‘ACT00 devices contain four independent 2-input NAND gates. Each gate perf
 of Y = NOT(A . B)  or Y = NOT(A) + NOT(B) in positive logic.
 
 ## Truth Table
+
 |   INPUTS   |  OUTPUT |
 | ---------- | ------- |
 |  A  |  B   |    Y    |
