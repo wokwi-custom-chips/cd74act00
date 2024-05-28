@@ -9,7 +9,7 @@ The actual source code for the chip lives in [src/main.c](src/main.c), and the p
 
 ## chip functionalities explained in DOCS 
 
-[docs](docs/README.md)
+[Go-to-docs](docs/README.md)
 
 ## Building
 
