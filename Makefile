@@ -3,13 +3,16 @@
 
 SOURCES = src/main.c
 TARGET  = dist/chip.wasm
-testFileName = logic 
+testFileName = logic
+testFolderName = test
+
 .PHONY: all
 all: $(TARGET) dist/chip.json
 
 .PHONY: clean
 clean:
-		rm -rf dist
+		rm -rf dist ; \
+		rm -rf $(testFolderName) ; \
 
 dist:
 		mkdir -p dist
@@ -23,7 +26,8 @@ dist/chip.json: dist chip.json
 
 .PHONY: test
 test:  
-	cd test && arduino-cli sketch new $(testFileName)   && arduino-cli compile -e -b arduino:avr:uno $(testFileName)
+	mkdir -p $(testFolderName) ; \
+	cd test && arduino-cli sketch new $(testFileName)   && arduino-cli compile -e -b arduino:avr:uno $(testFileName) ; \
 
 	
 	  
