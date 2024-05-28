@@ -41,7 +41,7 @@ To use this chip in your project, include it as a dependency in your `diagram.js
 
 ```json
   "dependencies": {
-    "chip-cd74act00": "github:wokwi/cd74act00@0.1.0"
+    "chip-cd74act00": "github:wokwi-custom-chips/cd74act00@0.1.0"
   }
 ```
 
