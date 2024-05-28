@@ -1,8 +1,5 @@
-// Wokwi Custom Chip - For docs and examples see:
-// https://docs.wokwi.com/chips-api/getting-started
-//
 // SPDX-License-Identifier: MIT
-// Copyright 2023 Algovoid
+// Copyright 2024 Algovoid
 
 
 
