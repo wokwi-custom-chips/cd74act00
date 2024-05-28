@@ -54,4 +54,4 @@ Then, add the chip to your circuit by adding a `chip-cd74act00` item to the `par
   },
 ```
 
-For a complete example, see [the inverter chip test project](https://wokwi.com/projects/398879430719023105).
+For a complete example, see [The CD74ACT00 chip test project](https://wokwi.com/projects/398879430719023105).
