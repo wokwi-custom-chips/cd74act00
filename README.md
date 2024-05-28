@@ -7,7 +7,7 @@ Custom chip that emulates the cd74act00 IC for [Wokwi](https://wokwi.com/).
 
 The actual source code for the chip lives in [src/main.c](src/main.c), and the pins are described in [chip.json](chip.json).
 
-## chip functionalities explained in DOCS 
+## Chip functionalities explained in DOCS 
 
 [Go-to-docs](docs/README.md)
 
