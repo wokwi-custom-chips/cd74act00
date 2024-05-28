@@ -9,13 +9,11 @@ of Y = NOT(A . B)  or Y = NOT(A) + NOT(B) in positive logic.
 
 ## Truth Table
 
-|   INPUTS   |  OUTPUT |
-| ---------- | ------- |
-|  A  |  B   |    Y    |
-| ---------- | ------- |
-|  H  |  H   |    L    |
-|  L  |  X   |    H    |
-|  X  |  L   |    H    |
+| INPUT A | INPUT B |  OUTPUT |
+| ------- | ------- | ------- |
+|    H    |    H    |    L    |
+|    L    |    X    |    H    |
+|    X    |    L    |    H    |
 
 ## Pin names
 
